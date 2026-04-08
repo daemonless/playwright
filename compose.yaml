@@ -1,0 +1,135 @@
+name: playwright
+
+x-daemonless:
+  title: "Playwright"
+  icon: ":material-web:"
+  category: "Utilities"
+  description: "Playwright (Chromium) on FreeBSD. Use as a base image for running browser tests."
+  upstream_url: "https://github.com/microsoft/playwright"
+  web_url: "https://playwright.dev/"
+  class: cli
+  user: "bsd"
+  mlock: false
+  appjail: false
+
+  notes: |
+    This image is intended as a **base image** for running browser automation scripts, not as a long-running service.
+
+    Write a script using `playwright-core` and run it with `podman run --rm`:
+
+    ```js
+    // test.js
+    const { chromium } = require('playwright-core');
+
+    (async () => {
+      const browser = await chromium.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      });
+      const context = await browser.newContext({
+        recordVideo: { dir: '/app/videos/' },
+        ignoreHTTPSErrors: true,
+      });
+      const page = await context.newPage();
+
+      try {
+        await page.goto('https://example.com');
+        // ... your test logic ...
+      } finally {
+        await context.close();
+        await browser.close();
+      }
+    })();
+    ```
+
+    ```sh
+    podman run --rm \
+      -v /path/to/test.js:/app/test.js:ro \
+      -v /path/to/videos:/app/videos \
+      --network host \
+      ghcr.io/daemonless/playwright:latest \
+      node /app/test.js
+    ```
+
+    Videos are recorded as `.webm` files. Convert to mp4 with:
+
+    ```sh
+    ffmpeg -i /path/to/videos/*.webm output.mp4
+    ```
+
+    ## Real-World Example
+
+    Login to a web app and record a video:
+
+    ```js
+    // login.js
+    const { chromium } = require('playwright-core');
+
+    (async () => {
+      const browser = await chromium.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      });
+      const context = await browser.newContext({
+        recordVideo: { dir: '/app/videos/', size: { width: 1280, height: 720 } },
+        ignoreHTTPSErrors: true,
+      });
+      const page = await context.newPage();
+
+      try {
+        await page.goto('https://myapp:8181');
+        await page.waitForLoadState('networkidle');
+
+        await page.locator('input[placeholder="Enter your username"]').fill('admin');
+        await page.locator('input[type="password"]').fill('admin');
+
+        await Promise.all([
+          page.waitForLoadState('networkidle'),
+          page.getByRole('button', { name: 'Login' }).click(),
+        ]);
+
+        // Wait for a post-login element instead of a fixed sleep
+        await page.waitForTimeout(3000);
+      } finally {
+        await context.close();
+        await browser.close();
+      }
+    })();
+    ```
+
+    ```sh
+    podman run --rm \
+      -v /path/to/login.js:/app/test.js:ro \
+      -v /path/to/videos:/app/videos \
+      --network host \
+      ghcr.io/daemonless/playwright:latest \
+      node /app/test.js
+    ```
+
+    ## FreeBSD Notes
+
+    Chromium and ffmpeg are installed from FreeBSD packages and symlinked into the paths `playwright-core` expects.
+    The `playwright-core` npm package is patched at build time to register `freebsd-amd64` as a native platform — no Linux masquerade needed.
+
+    ## Manual Install (without container)
+
+    ```sh
+    git clone https://github.com/daemonless/playwright
+    pkg install node22 npm-node22 chromium ffmpeg
+    npm install -g playwright-core
+    sh playwright/root/build/patch-playwright.sh
+    doas sh playwright/root/build/setup-ms-playwright.sh
+    ```
+
+    Add to your shell profile:
+
+    ```sh
+    export PLAYWRIGHT_BROWSERS_PATH=/usr/local/libexec/ms-playwright
+    export PLAYWRIGHT_HOST_PLATFORM_OVERRIDE=freebsd-amd64
+    export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+    export NODE_PATH=$(npm root -g)
+    ```
+
+services:
+  playwright:
+    image: ghcr.io/daemonless/playwright:latest
+    container_name: playwright
+    # Use as a base image — run with `podman run --rm` rather than as a persistent service.
