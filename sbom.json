@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-03T11:20:25Z",
+  "generated": "2026-05-30T23:17:28Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "15.0",
       "arch": "amd64",
-      "generated": "2026-05-03T11:19:06Z",
+      "generated": "2026-05-30T23:16:14Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -59,7 +59,7 @@
           },
           {
             "name": "FreeBSD-libcasper",
-            "version": "15.0"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-libexecinfo",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p6"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -115,7 +115,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p1"
+            "version": "15.0p9"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -131,7 +131,7 @@
           },
           {
             "name": "FreeBSD-zoneinfo",
-            "version": "15.0"
+            "version": "15.0p7"
           },
           {
             "name": "Imath",
@@ -191,7 +191,7 @@
           },
           {
             "name": "ca_root_nss",
-            "version": "3.117_2"
+            "version": "3.124"
           },
           {
             "name": "cairo",
@@ -199,7 +199,7 @@
           },
           {
             "name": "chromium",
-            "version": "147.0.7727.101"
+            "version": "148.0.7778.178"
           },
           {
             "name": "colord",
@@ -215,7 +215,7 @@
           },
           {
             "name": "cups",
-            "version": "2.4.18"
+            "version": "2.4.19"
           },
           {
             "name": "dav1d",
@@ -259,7 +259,7 @@
           },
           {
             "name": "expat",
-            "version": "2.7.5"
+            "version": "2.8.1"
           },
           {
             "name": "ffmpeg",
@@ -323,7 +323,7 @@
           },
           {
             "name": "gnutls",
-            "version": "3.8.12"
+            "version": "3.8.13"
           },
           {
             "name": "gobject-introspection",
@@ -843,7 +843,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.9"
+            "version": "3.4.11"
           },
           {
             "name": "openh264",
