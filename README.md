@@ -22,71 +22,14 @@ Playwright (Chromium) on FreeBSD. Use as a base image for running browser tests.
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
 
-
-
-
 ## Deployment
-
-### Podman Compose
-
-```yaml
-services:
-  playwright:
-    image: ghcr.io/daemonless/playwright:latest
-    container_name: playwright
-    restart: unless-stopped
-```
-
-### AppJail Director
-
-**.env**:
-
-```
-DIRECTOR_PROJECT=playwright
-```
-
-**appjail-director.yml**:
-
-```yaml
-options:
-  - virtualnet: ':<random> default'
-  - nat:
-services:
-  playwright:
-    name: playwright
-    options:
-      - container: 'boot args:--pull'
-```
-
-**Makejail**:
-
-```
-ARG tag=latest
-
-OPTION overwrite=force
-OPTION from=ghcr.io/daemonless/playwright:${tag}
-```
 
 ### Podman CLI
 
 ```bash
-
 podman run --rm \
   ghcr.io/daemonless/playwright:latest
 ```
-
-### Ansible
-
-```yaml
-- name: Deploy playwright
-  containers.podman.podman_container:
-    name: playwright
-    image: ghcr.io/daemonless/playwright:latest
-    state: started
-    restart_policy: always
-```
-
-
 
 This image is intended as a **base image** for running browser automation scripts, not as a long-running service.
 
