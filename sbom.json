@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-31T13:43:52Z",
+  "generated": "2026-05-31T22:33:44Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.59.1",
+      "app_version": "1.60.0",
       "arch": "amd64",
-      "generated": "2026-05-31T13:42:34Z",
+      "generated": "2026-05-31T22:32:25Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -199,7 +199,7 @@
           },
           {
             "name": "chromium",
-            "version": "148.0.7778.178"
+            "version": "148.0.7778.215"
           },
           {
             "name": "colord",
@@ -895,7 +895,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.59.1_1"
+            "version": "1.60.0"
           },
           {
             "name": "png",
@@ -1095,7 +1095,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.59.1"
+            "version": "1.60.0"
           }
         ],
         "php": [],
