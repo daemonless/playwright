@@ -35,6 +35,7 @@ FROM ghcr.io/daemonless/base-core:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PACKAGES="chromium ffmpeg dejavu noto-basic ca_root_nss node24"
+ARG UPSTREAM_URL="https://registry.npmjs.org/playwright-core/latest"
 
 # --- Metadata (Injected by Generator) ---
 LABEL org.opencontainers.image.title="{{ title }}" \
@@ -46,7 +47,9 @@ LABEL org.opencontainers.image.title="{{ title }}" \
       org.opencontainers.image.authors="daemonless" \
       io.daemonless.category="{{ category }}" \
       io.daemonless.arch="${FREEBSD_ARCH}" \
-      io.daemonless.pkg-source="ports"
+      io.daemonless.pkg-source="ports" \
+      io.daemonless.upstream-url="${UPSTREAM_URL}" \
+      io.daemonless.upstream-jq=".version"
 
 # Install runtime deps then playwright-core from ports build
 COPY --from=builder /playwright-core.pkg /playwright-core.pkg
