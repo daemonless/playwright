@@ -1,11 +1,11 @@
 {
-  "generated": "2026-05-30T23:17:28Z",
+  "generated": "2026-05-31T11:53:54Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "15.0",
       "arch": "amd64",
-      "generated": "2026-05-30T23:16:14Z",
+      "generated": "2026-05-31T11:52:39Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -843,7 +843,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.11"
+            "version": "3.4.12"
           },
           {
             "name": "openh264",
