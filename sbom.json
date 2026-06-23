@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-15T13:33:48Z",
+  "generated": "2026-06-23T22:05:49Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.61.0",
+      "app_version": "1.61.1",
       "arch": "amd64",
-      "generated": "2026-06-15T13:32:29Z",
+      "generated": "2026-06-23T22:04:31Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -159,7 +159,7 @@
           },
           {
             "name": "aom",
-            "version": "3.13.3"
+            "version": "3.14.1"
           },
           {
             "name": "at-spi2-core",
@@ -831,7 +831,7 @@
           },
           {
             "name": "nss",
-            "version": "3.123.1"
+            "version": "3.124"
           },
           {
             "name": "oniguruma",
@@ -895,7 +895,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.61.0"
+            "version": "1.61.1"
           },
           {
             "name": "png",
@@ -939,7 +939,7 @@
           },
           {
             "name": "python311",
-            "version": "3.11.15_2"
+            "version": "3.11.15_4"
           },
           {
             "name": "re2",
@@ -1095,7 +1095,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.61.0"
+            "version": "1.61.1"
           }
         ],
         "php": [],
