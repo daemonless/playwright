@@ -1,11 +1,11 @@
 {
-  "generated": "2026-06-23T22:05:49Z",
+  "generated": "2026-07-07T08:53:55Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "1.61.1",
       "arch": "amd64",
-      "generated": "2026-06-23T22:04:31Z",
+      "generated": "2026-07-07T08:52:37Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -27,11 +27,11 @@
           },
           {
             "name": "FreeBSD-clibs",
-            "version": "15.0"
+            "version": "15.0p11"
           },
           {
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.0"
+            "version": "15.0p11"
           },
           {
             "name": "FreeBSD-ctf-lib",
@@ -103,7 +103,7 @@
           },
           {
             "name": "FreeBSD-runtime",
-            "version": "15.0p10"
+            "version": "15.0p11"
           },
           {
             "name": "FreeBSD-tcpd",
@@ -115,7 +115,7 @@
           },
           {
             "name": "FreeBSD-utilities",
-            "version": "15.0p10"
+            "version": "15.0p11"
           },
           {
             "name": "FreeBSD-xz-lib",
@@ -123,7 +123,7 @@
           },
           {
             "name": "FreeBSD-zfs-lib",
-            "version": "15.0p10"
+            "version": "15.0p11"
           },
           {
             "name": "FreeBSD-zlib",
@@ -199,7 +199,7 @@
           },
           {
             "name": "chromium",
-            "version": "148.0.7778.215"
+            "version": "149.0.7827.200"
           },
           {
             "name": "colord",
@@ -567,7 +567,7 @@
           },
           {
             "name": "libevent",
-            "version": "2.1.12"
+            "version": "2.1.13"
           },
           {
             "name": "libexif",
@@ -799,7 +799,7 @@
           },
           {
             "name": "node24",
-            "version": "24.14.1"
+            "version": "24.18.0"
           },
           {
             "name": "noto-basic",
@@ -843,7 +843,7 @@
           },
           {
             "name": "openexr",
-            "version": "3.4.12"
+            "version": "3.4.13"
           },
           {
             "name": "openh264",
