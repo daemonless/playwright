@@ -17,7 +17,6 @@ Playwright (Chromium) on FreeBSD. Use as a base image for running browser tests.
 | **Website** | [https://playwright.dev/](https://playwright.dev/) |
 
 ## Version Tags
-
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
 | `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
@@ -149,7 +148,7 @@ export NODE_PATH=$(npm root -g)
 
 **Architectures:** amd64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
-**Base:** FreeBSD 15.0
+**Base:** FreeBSD 15
 
 ---
 

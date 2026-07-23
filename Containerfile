@@ -65,9 +65,9 @@ RUN pkg update && \
     pkg clean -ay && \
     rm -rf /var/cache/pkg/* /var/db/pkg/repos/*
 
-# Strip FreeBSD pkg revision (_N); chmod so USER bsd can read it for version extraction
+# chmod so USER bsd can read it for version extraction
 RUN mkdir -p /app && \
-    pkg query '%v' playwright-core | sed 's/_[0-9]*$//' > /app/version && \
+    pkg query '%v' playwright-core > /app/version && \
     chmod 755 /app && chmod 644 /app/version
 
 ENV PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 \
