@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-19T00:02:59Z",
+  "generated": "2026-07-23T21:17:08Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "1.61.1",
       "arch": "amd64",
-      "generated": "2026-07-19T00:01:38Z",
+      "generated": "2026-07-23T21:15:49Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -855,7 +855,7 @@
           },
           {
             "name": "nss",
-            "version": "3.125"
+            "version": "3.126"
           },
           {
             "name": "oniguruma",
