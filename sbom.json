@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-23T21:17:08Z",
+  "generated": "2026-07-24T23:47:57Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.61.1",
+      "app_version": "1.62.0",
       "arch": "amd64",
-      "generated": "2026-07-23T21:15:49Z",
+      "generated": "2026-07-24T23:46:43Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -923,7 +923,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.61.1"
+            "version": "1.62.0"
           },
           {
             "name": "png",
@@ -1147,7 +1147,7 @@
           },
           {
             "name": "playwright-core",
-            "version": "1.61.1"
+            "version": "1.62.0"
           }
         ],
         "php": [],
