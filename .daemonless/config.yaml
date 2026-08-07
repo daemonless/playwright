@@ -9,7 +9,7 @@ build:
       containerfile: Containerfile
       default: true
       args:
-        BASE_VERSION: "15-pkg"
+        BASE_VERSION: "15-latest"
 
 cit:
   mode: shell
