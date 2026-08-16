@@ -19,7 +19,7 @@ Playwright (Chromium) on FreeBSD. Use as a base image for running browser tests.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users. Matches Linux Docker behavior. |
+| `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
 
 ## Deployment
 
