@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-16T11:02:59Z",
+  "generated": "2026-08-29T22:08:51Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "1.62.1",
       "arch": "amd64",
-      "generated": "2026-08-16T11:00:17Z",
+      "generated": "2026-08-29T22:06:16Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -161,7 +161,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -189,7 +189,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p2"
+            "version": "15.1p3"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "BSD3CLAUSE"
             ],
             "name": "Imath",
-            "version": "3.2.2_4"
+            "version": "3.2.3"
           },
           {
             "licenses": [
@@ -296,7 +296,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.14.1_1"
+            "version": "3.15.0"
           },
           {
             "licenses": [
@@ -353,7 +353,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.125"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -370,7 +370,7 @@
               "MPL11"
             ],
             "name": "chromium",
-            "version": "150.0.7871.186"
+            "version": "151.0.7922.169"
           },
           {
             "licenses": [
@@ -478,7 +478,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.2"
+            "version": "2.8.3"
           },
           {
             "licenses": [
@@ -486,7 +486,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "8.1.2_2,1"
+            "version": "8.1.2_3,1"
           },
           {
             "licenses": [
@@ -964,7 +964,7 @@
               "LGPL21"
             ],
             "name": "libbluray",
-            "version": "1.4.1,1"
+            "version": "1.5.0,1"
           },
           {
             "licenses": [
@@ -1013,7 +1013,7 @@
               "GPLv2"
             ],
             "name": "libdvdread",
-            "version": "7.0.0"
+            "version": "7.1.1"
           },
           {
             "licenses": [
@@ -1062,7 +1062,7 @@
               "MIT"
             ],
             "name": "libffi",
-            "version": "3.7.1"
+            "version": "3.8.0"
           },
           {
             "licenses": [
@@ -1157,21 +1157,21 @@
               "MIT"
             ],
             "name": "libnghttp2",
-            "version": "1.69.0"
+            "version": "1.70.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libnghttp3",
-            "version": "1.17.0"
+            "version": "1.18.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "libngtcp2",
-            "version": "1.24.0"
+            "version": "1.25.0"
           },
           {
             "licenses": [
@@ -1346,14 +1346,14 @@
               "BSD3CLAUSE"
             ],
             "name": "libvpx",
-            "version": "1.16.0"
+            "version": "1.17.0"
           },
           {
             "licenses": [
               "GPLv2"
             ],
             "name": "libx264",
-            "version": "0.165.3223"
+            "version": "0.165.3223_1"
           },
           {
             "licenses": [
@@ -1429,14 +1429,14 @@
               "APACHE20"
             ],
             "name": "merve",
-            "version": "1.2.2_1"
+            "version": "1.2.2_2"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.1.6"
+            "version": "26.2.1"
           },
           {
             "licenses": [
@@ -1493,7 +1493,7 @@
               "MIT"
             ],
             "name": "node24",
-            "version": "24.18.0"
+            "version": "24.19.0"
           },
           {
             "licenses": [
@@ -1549,7 +1549,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.126"
+            "version": "3.127"
           },
           {
             "licenses": [
@@ -1570,7 +1570,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.13_1"
+            "version": "3.4.15"
           },
           {
             "licenses": [
@@ -1620,7 +1620,7 @@
               "GPLv3"
             ],
             "name": "pcaudiolib",
-            "version": "1.2_2"
+            "version": "1.3"
           },
           {
             "licenses": [
@@ -1628,7 +1628,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pciids",
-            "version": "20260711"
+            "version": "20260819"
           },
           {
             "licenses": [
@@ -1729,14 +1729,14 @@
               "MPL11"
             ],
             "name": "py312-pycairo",
-            "version": "1.29.0"
+            "version": "1.29.1"
           },
           {
             "licenses": [
               "LGPL21"
             ],
             "name": "py312-pygobject",
-            "version": "3.56.3"
+            "version": "3.56.3_1"
           },
           {
             "licenses": [
@@ -1750,14 +1750,14 @@
               "LGPL21"
             ],
             "name": "pygobject-common",
-            "version": "3.56.3"
+            "version": "3.56.3_1"
           },
           {
             "licenses": [
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.13_4"
+            "version": "3.12.14"
           },
           {
             "licenses": [
@@ -1793,7 +1793,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.6"
+            "version": "4.6.8"
           },
           {
             "licenses": [
@@ -1801,7 +1801,7 @@
               "APACHE20"
             ],
             "name": "simdutf",
-            "version": "9.0.0"
+            "version": "9.1.0"
           },
           {
             "licenses": [
@@ -1844,14 +1844,14 @@
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.3.r1"
+            "version": "2026.3"
           },
           {
             "licenses": [
               "PD"
             ],
             "name": "sqlite3",
-            "version": "3.53.3,1"
+            "version": "3.53.4,1"
           },
           {
             "licenses": [
@@ -1895,14 +1895,14 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.357"
+            "version": "1.4.360"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "wayland",
-            "version": "1.25.0"
+            "version": "1.26.0"
           },
           {
             "licenses": [
@@ -2070,7 +2070,7 @@
           {
             "name": "pycairo",
             "purl": "",
-            "version": "1.29.0"
+            "version": "1.29.1"
           },
           {
             "name": "setuptools",

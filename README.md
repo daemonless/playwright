@@ -30,6 +30,8 @@ podman run --rm \
   ghcr.io/daemonless/playwright:latest
 ```
 
+Save as `run.sh`, then run `sh run.sh`.
+
 This image is intended as a **base image** for running browser automation scripts, not as a long-running service.
 
 Write a script using `playwright-core` and run it with `podman run --rm`:
