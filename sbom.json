@@ -1,11 +1,11 @@
 {
-  "generated": "2026-08-29T22:08:51Z",
+  "generated": "2026-09-05T12:56:41Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.62.1",
+      "app_version": "1.63.0",
       "arch": "amd64",
-      "generated": "2026-08-29T22:06:16Z",
+      "generated": "2026-09-05T12:53:53Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -353,7 +353,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.127"
+            "version": "3.128"
           },
           {
             "licenses": [
@@ -370,7 +370,7 @@
               "MPL11"
             ],
             "name": "chromium",
-            "version": "151.0.7922.169"
+            "version": "152.0.7977.75"
           },
           {
             "licenses": [
@@ -391,7 +391,7 @@
               "MIT"
             ],
             "name": "corepack",
-            "version": "0.35.0"
+            "version": "0.35.0_1"
           },
           {
             "licenses": [
@@ -767,7 +767,7 @@
               "MIT"
             ],
             "name": "jsoncpp",
-            "version": "1.9.6_1"
+            "version": "1.9.8"
           },
           {
             "licenses": [
@@ -788,7 +788,7 @@
               "APACHE20"
             ],
             "name": "lerc",
-            "version": "4.1.1"
+            "version": "4.2.0"
           },
           {
             "licenses": [
@@ -1077,7 +1077,7 @@
               "GPLv2+"
             ],
             "name": "libgcrypt",
-            "version": "1.12.2"
+            "version": "1.12.3_2"
           },
           {
             "licenses": [
@@ -1395,7 +1395,7 @@
               "MIT"
             ],
             "name": "llhttp",
-            "version": "9.4.2"
+            "version": "9.4.3"
           },
           {
             "licenses": [
@@ -1549,7 +1549,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.127"
+            "version": "3.128_1"
           },
           {
             "licenses": [
@@ -1570,7 +1570,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15"
+            "version": "3.4.15_1"
           },
           {
             "licenses": [
@@ -1584,7 +1584,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.30.1"
+            "version": "0.31.0"
           },
           {
             "licenses": [
@@ -1628,14 +1628,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pciids",
-            "version": "20260819"
+            "version": "20260822"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.47_1"
+            "version": "10.48"
           },
           {
             "licenses": [
@@ -1671,7 +1671,7 @@
               "APACHE20"
             ],
             "name": "playwright-core",
-            "version": "1.62.1"
+            "version": "1.63.0"
           },
           {
             "licenses": [
@@ -1692,7 +1692,7 @@
               "LGPL21"
             ],
             "name": "pulseaudio",
-            "version": "17.0_4"
+            "version": "17.0_5"
           },
           {
             "licenses": [
@@ -1721,7 +1721,7 @@
               "APACHE20"
             ],
             "name": "py312-packaging",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "licenses": [
@@ -1736,7 +1736,7 @@
               "LGPL21"
             ],
             "name": "py312-pygobject",
-            "version": "3.56.3_1"
+            "version": "3.58.0"
           },
           {
             "licenses": [
@@ -1750,7 +1750,7 @@
               "LGPL21"
             ],
             "name": "pygobject-common",
-            "version": "3.56.3_1"
+            "version": "3.58.0"
           },
           {
             "licenses": [
@@ -1793,7 +1793,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.8"
+            "version": "4.6.9"
           },
           {
             "licenses": [
@@ -1837,7 +1837,7 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.21"
+            "version": "19.1.22"
           },
           {
             "licenses": [
@@ -2042,7 +2042,7 @@
           {
             "name": "playwright-core",
             "purl": "",
-            "version": "1.62.1"
+            "version": "1.63.0"
           }
         ],
         "php": [],
@@ -2050,7 +2050,7 @@
           {
             "name": "PyGObject",
             "purl": "",
-            "version": "3.56.3"
+            "version": "3.58.0"
           },
           {
             "name": "example",
@@ -2065,7 +2065,7 @@
           {
             "name": "packaging",
             "purl": "",
-            "version": "26.2"
+            "version": "26.3"
           },
           {
             "name": "pycairo",
