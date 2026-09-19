@@ -7,6 +7,7 @@ Source: dbuild templates
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/daemonless/playwright/build.yaml?style=flat-square&label=Build&color=green)](https://github.com/daemonless/playwright/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/daemonless/playwright?style=flat-square&label=Last+Commit&color=blue)](https://github.com/daemonless/playwright/commits)
+[![OCI Pulls](https://img.shields.io/docker/pulls/daemonless/playwright?style=flat-square&label=OCI+Pulls&color=blue)](https://hub.docker.com/r/daemonless/playwright)
 
 Playwright (Chromium) on FreeBSD. Use as a base image for running browser tests.
 
