@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-19T10:35:07Z",
+  "generated": "2026-09-29T20:33:14Z",
   "image": "playwright",
   "tags": {
     "latest": {
       "app_version": "1.63.0",
       "arch": "amd64",
-      "generated": "2026-09-19T10:32:33Z",
+      "generated": "2026-09-29T20:29:55Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -49,7 +49,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs-lib32",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -310,7 +310,7 @@
               "BSD2CLAUSE"
             ],
             "name": "aom",
-            "version": "3.15.0"
+            "version": "3.15.1"
           },
           {
             "licenses": [
@@ -367,7 +367,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -1156,7 +1156,7 @@
               "LGPL21"
             ],
             "name": "libltdl",
-            "version": "2.5.4"
+            "version": "2.6.2"
           },
           {
             "licenses": [
@@ -1443,7 +1443,7 @@
               "APACHE20"
             ],
             "name": "merve",
-            "version": "1.2.2_2"
+            "version": "1.2.2_3"
           },
           {
             "licenses": [
@@ -1563,7 +1563,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.129"
+            "version": "3.130"
           },
           {
             "licenses": [
@@ -1584,7 +1584,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15_1"
+            "version": "3.4.15_2"
           },
           {
             "licenses": [
@@ -1598,7 +1598,7 @@
               "BSD2CLAUSE"
             ],
             "name": "openjph",
-            "version": "0.31.0"
+            "version": "0.32.0"
           },
           {
             "licenses": [
@@ -1620,7 +1620,7 @@
               "BSD3CLAUSE"
             ],
             "name": "p11-kit",
-            "version": "0.26.5"
+            "version": "0.26.5_1"
           },
           {
             "licenses": [
@@ -1642,7 +1642,7 @@
               "BSD3CLAUSE"
             ],
             "name": "pciids",
-            "version": "20260912"
+            "version": "20260918"
           },
           {
             "licenses": [
@@ -1664,7 +1664,7 @@
               "MIT"
             ],
             "name": "pipewire",
-            "version": "1.6.8"
+            "version": "1.6.9"
           },
           {
             "licenses": [
@@ -1771,7 +1771,7 @@
               "PSFL"
             ],
             "name": "python312",
-            "version": "3.12.14"
+            "version": "3.12.14_1"
           },
           {
             "licenses": [
@@ -1785,7 +1785,7 @@
               "GPLv3"
             ],
             "name": "readline",
-            "version": "8.3.3"
+            "version": "8.3.6"
           },
           {
             "licenses": [
@@ -1815,7 +1815,7 @@
               "APACHE20"
             ],
             "name": "simdutf",
-            "version": "9.1.2"
+            "version": "9.2.0"
           },
           {
             "licenses": [
@@ -1979,7 +1979,7 @@
               "BSD2CLAUSE"
             ],
             "name": "xxhash",
-            "version": "0.8.3"
+            "version": "0.8.4"
           },
           {
             "licenses": [
