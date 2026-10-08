@@ -1,11 +1,11 @@
 {
-  "generated": "2026-09-29T20:33:14Z",
+  "generated": "2026-10-08T14:50:01Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.63.0",
+      "app_version": "1.64.0",
       "arch": "amd64",
-      "generated": "2026-09-29T20:29:55Z",
+      "generated": "2026-10-08T14:47:20Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -42,7 +42,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-clibs",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -70,7 +70,7 @@
               "BSD-3-Clause"
             ],
             "name": "FreeBSD-dhclient",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -105,7 +105,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-libcasper",
-            "version": "15.1"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -168,7 +168,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-openssl-lib",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -203,7 +203,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-runtime",
-            "version": "15.1p3"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -224,7 +224,7 @@
               "BSD2CLAUSE"
             ],
             "name": "FreeBSD-utilities",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -252,7 +252,7 @@
               "PD"
             ],
             "name": "FreeBSD-zoneinfo",
-            "version": "15.1p2"
+            "version": "15.1p4"
           },
           {
             "licenses": [
@@ -266,7 +266,7 @@
               "BSD3CLAUSE"
             ],
             "name": "Imath",
-            "version": "3.2.3"
+            "version": "3.2.3_1"
           },
           {
             "licenses": [
@@ -346,7 +346,7 @@
               "BSL"
             ],
             "name": "boost-libs",
-            "version": "1.91.0"
+            "version": "1.92.0"
           },
           {
             "licenses": [
@@ -384,7 +384,7 @@
               "MPL11"
             ],
             "name": "chromium",
-            "version": "152.0.7977.75_2"
+            "version": "154.0.8037.57"
           },
           {
             "licenses": [
@@ -434,7 +434,7 @@
               "GPLv2+"
             ],
             "name": "dbus-glib",
-            "version": "0.114"
+            "version": "0.116"
           },
           {
             "licenses": [
@@ -492,7 +492,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.4"
+            "version": "2.8.5"
           },
           {
             "licenses": [
@@ -500,7 +500,7 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "9.0.1,1"
+            "version": "9.0.2_1,1"
           },
           {
             "licenses": [
@@ -546,7 +546,7 @@
               "LGPL21"
             ],
             "name": "fribidi",
-            "version": "1.0.16"
+            "version": "1.0.17"
           },
           {
             "licenses": [
@@ -1450,7 +1450,7 @@
               "MIT"
             ],
             "name": "mesa-libs",
-            "version": "26.2.2"
+            "version": "26.2.2_1"
           },
           {
             "licenses": [
@@ -1507,7 +1507,7 @@
               "MIT"
             ],
             "name": "node24",
-            "version": "24.21.0"
+            "version": "24.21.0_1"
           },
           {
             "licenses": [
@@ -1584,7 +1584,7 @@
               "BSD3CLAUSE"
             ],
             "name": "openexr",
-            "version": "3.4.15_2"
+            "version": "3.4.16"
           },
           {
             "licenses": [
@@ -1642,14 +1642,14 @@
               "BSD3CLAUSE"
             ],
             "name": "pciids",
-            "version": "20260918"
+            "version": "20260922"
           },
           {
             "licenses": [
               "BSD3CLAUSE"
             ],
             "name": "pcre2",
-            "version": "10.48"
+            "version": "10.49"
           },
           {
             "licenses": [
@@ -1682,13 +1682,6 @@
           },
           {
             "licenses": [
-              "APACHE20"
-            ],
-            "name": "playwright-core",
-            "version": "1.63.0"
-          },
-          {
-            "licenses": [
               "Libpng"
             ],
             "name": "png",
@@ -1713,14 +1706,14 @@
               "BSL"
             ],
             "name": "py312-boost-libs",
-            "version": "1.91.0"
+            "version": "1.92.0"
           },
           {
             "licenses": [
               "MIT"
             ],
             "name": "py312-dbus",
-            "version": "1.4.0"
+            "version": "1.4.0_1"
           },
           {
             "licenses": [
@@ -1792,7 +1785,7 @@
               "APACHE20"
             ],
             "name": "shaderc",
-            "version": "2026.4"
+            "version": "2026.4_1"
           },
           {
             "licenses": [
@@ -1807,7 +1800,7 @@
               "APACHE20"
             ],
             "name": "simdjson",
-            "version": "4.6.11_1"
+            "version": "5.0.1"
           },
           {
             "licenses": [
@@ -1815,7 +1808,7 @@
               "APACHE20"
             ],
             "name": "simdutf",
-            "version": "9.2.0"
+            "version": "9.2.1"
           },
           {
             "licenses": [
@@ -1851,14 +1844,14 @@
               "NCSA"
             ],
             "name": "spirv-llvm-translator-llvm19",
-            "version": "19.1.22"
+            "version": "19.1.23"
           },
           {
             "licenses": [
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.3"
+            "version": "2026.4.r2"
           },
           {
             "licenses": [
@@ -1909,7 +1902,7 @@
               "APACHE20"
             ],
             "name": "vulkan-loader",
-            "version": "1.4.360"
+            "version": "1.4.365"
           },
           {
             "licenses": [
@@ -1937,7 +1930,7 @@
               "GPLv2+"
             ],
             "name": "x265",
-            "version": "4.1"
+            "version": "4.2"
           },
           {
             "licenses": [
@@ -2056,7 +2049,7 @@
           {
             "name": "playwright-core",
             "purl": "",
-            "version": "1.63.0"
+            "version": "1.64.0"
           }
         ],
         "php": [],
@@ -2098,7 +2091,7 @@
       "source": "upstream",
       "summary": {
         "dotnet": 0,
-        "freebsd": 275,
+        "freebsd": 274,
         "go": 0,
         "java": 0,
         "node": 13,
@@ -2106,7 +2099,7 @@
         "python": 6,
         "ruby": 0,
         "rust": 0,
-        "total": 294
+        "total": 293
       }
     }
   }
