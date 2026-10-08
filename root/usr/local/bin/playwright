@@ -1,0 +1,9 @@
+#!/bin/sh
+export PLAYWRIGHT_BROWSERS_PATH=/usr/local/libexec/ms-playwright
+export PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+export PLAYWRIGHT_HOST_PLATFORM_OVERRIDE=freebsd-amd64
+export NODE_PATH=/usr/local/lib/node_modules
+case "$1" in
+    *.js) exec /usr/local/bin/node "$@" ;;
+    *)    exec /usr/local/bin/node /usr/local/lib/node_modules/playwright-core/cli.js "$@" ;;
+esac
