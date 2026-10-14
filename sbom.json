@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-08T14:50:01Z",
+  "generated": "2026-10-14T15:09:46Z",
   "image": "playwright",
   "tags": {
     "latest": {
-      "app_version": "1.64.0",
+      "app_version": "1.64.1",
       "arch": "amd64",
-      "generated": "2026-10-08T14:47:20Z",
+      "generated": "2026-10-14T15:07:00Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -367,7 +367,7 @@
               "MPL20"
             ],
             "name": "ca_root_nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -384,7 +384,7 @@
               "MPL11"
             ],
             "name": "chromium",
-            "version": "154.0.8037.57"
+            "version": "154.0.8037.57_1"
           },
           {
             "licenses": [
@@ -492,7 +492,7 @@
               "MIT"
             ],
             "name": "expat",
-            "version": "2.8.5"
+            "version": "2.9.0"
           },
           {
             "licenses": [
@@ -500,21 +500,21 @@
               "LGPL3+"
             ],
             "name": "ffmpeg",
-            "version": "9.0.2_1,1"
+            "version": "9.0.2_2,1"
           },
           {
             "licenses": [
               "GPLv2+"
             ],
             "name": "fftw3",
-            "version": "3.3.10_5"
+            "version": "3.3.11"
           },
           {
             "licenses": [
               "GPLv2+"
             ],
             "name": "fftw3-float",
-            "version": "3.3.10_5"
+            "version": "3.3.11"
           },
           {
             "licenses": [
@@ -531,7 +531,7 @@
               "MIT"
             ],
             "name": "fontconfig",
-            "version": "2.17.1,1"
+            "version": "2.18.3,1"
           },
           {
             "licenses": [
@@ -636,7 +636,7 @@
               "GPLv2"
             ],
             "name": "graphite2",
-            "version": "1.3.15"
+            "version": "1.3.15_1"
           },
           {
             "licenses": [
@@ -650,14 +650,14 @@
               "LGPL20+"
             ],
             "name": "gstreamer1",
-            "version": "1.28.6_1"
+            "version": "1.28.8"
           },
           {
             "licenses": [
               "LGPL20"
             ],
             "name": "gstreamer1-plugins",
-            "version": "1.28.6"
+            "version": "1.28.8"
           },
           {
             "licenses": [
@@ -715,7 +715,7 @@
               "GPLv2+"
             ],
             "name": "hwdata",
-            "version": "0.411,1"
+            "version": "0.412,1"
           },
           {
             "licenses": [
@@ -1563,7 +1563,7 @@
               "MPL20"
             ],
             "name": "nss",
-            "version": "3.130"
+            "version": "3.131"
           },
           {
             "licenses": [
@@ -1685,7 +1685,7 @@
               "Libpng"
             ],
             "name": "png",
-            "version": "1.6.58"
+            "version": "1.6.59_1"
           },
           {
             "licenses": [
@@ -1851,7 +1851,7 @@
               "APACHE20"
             ],
             "name": "spirv-tools",
-            "version": "2026.4.r2"
+            "version": "2026.4"
           },
           {
             "licenses": [
@@ -1930,7 +1930,7 @@
               "GPLv2+"
             ],
             "name": "x265",
-            "version": "4.2"
+            "version": "4.3"
           },
           {
             "licenses": [
@@ -1951,7 +1951,7 @@
               "MIT"
             ],
             "name": "xorgproto",
-            "version": "2025.1"
+            "version": "2026.1"
           },
           {
             "licenses": [
@@ -2049,7 +2049,7 @@
           {
             "name": "playwright-core",
             "purl": "",
-            "version": "1.64.0"
+            "version": "1.64.1"
           }
         ],
         "php": [],
